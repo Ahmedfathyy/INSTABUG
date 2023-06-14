@@ -1,0 +1,17 @@
+replicaCount: 3
+
+image:
+  repository: ahmedfathyy/goviolin
+  tag: latest
+
+mysql:
+  host: MYSQL_HOST
+  port: MYSQL_PORT
+  user: MYSQL_USER
+  password: MYSQL_PASS
+  database: internship
+
+persistence:
+  enabled: true
+  accessMode: ReadWriteOnce
+  size: 1Gi
